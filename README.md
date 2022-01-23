@@ -18,8 +18,8 @@ Project content overview
 │   ├── stream.hpp                        # common header of following code 
 │   ├── stream8rto8.cpp                   # 8-raw to 8 stream conversion 
 │   ├── stream8x2.cpp                     # 8x2-stream duplicator 
-│   ├── windex.cpp                        # word generator Part-1: generating index-based string for word
-│   ├── wgen_raw.cpp                      # word generator Part-2: create word image based index string 
-│   └── wgen_mix.cpp                      # word generator Part-3: blending word image and background image
+│   ├── windex.cpp                        # word generator Part-1: generate index-based string for a word
+│   ├── wgen_raw.cpp                      # word generator Part-2: create word image based on index string 
+│   └── wgen_mix.cpp                      # word generator Part-3: blend word image and background image
 └── video.avi                             # the video file used for demo, containing 100 different images
 ```
